@@ -1,0 +1,106 @@
+body{
+    background: url(http://www.sony.jp/ichigan/community/wallpaper/images/photocon1612/02_1920_1280.jpg);
+   text-align: center;
+}
+.col{
+    width: 25%;
+    height: 400px;
+    background: white;
+    display: inline-block;
+    margin: 50px 6px; 
+}
+.price-box{
+    width: 100%;
+    height: 200px;
+    background: navy;
+    color: white;
+}
+.plan-text{
+    text-align: center;
+    padding: 18px 0px;
+    font-size: 20px;
+}
+.price-text *{
+    display: inline-block;
+}
+.price-text{
+    text-align: center;
+}
+.amount{
+    font-size: 50px;
+}
+.doller{
+    vertical-align: top;
+    padding-top: 8px;
+}
+.btn-box{
+    text-align: center;
+    border: 2px solid white;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px 0px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.message{
+    color: grey;
+    font-family: calibri;
+    display: inline;
+    font-size: 18px;
+}
+
+.data{
+    color: #000067;
+    display: inline;
+    font-size: 18px;
+}
+
+.fixed {
+    height: 100px;
+    width: 100px;
+    background: #ff9d00;
+    position: fixed;
+    left: 93%;
+    top: 85%;
+/*    text-align: center;*/
+    line-height: 35px;
+    font-size: 20px;
+/*    color: #191919;*/
+    border-radius: 50%;
+}
+
+.bar-group{
+  background: #eee;
+  height: 100px;
+  padding:10px;
+}
+div.bar {
+	width: 30px;
+	height: 30px;
+	background-color: gold;
+	margin-bottom: 5px;
+    transition:1s;
+}
+
+div.bar.item1:hover{
+  transition:0.8s;
+  width:900px;
+  background:red;
+  
+}
+div.bar.item2:hover{
+  transition:0.4s;
+  width:300px;
+  background:red;
+  
+}
+div.bar.item3:hover{
+  transition:0.5s;
+  width:600px;
+  background:red;
+  
+}
+
+
